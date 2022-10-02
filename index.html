@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BleakBuilds.loader.js";
+      var loaderUrl = buildUrl + "/SomethingBleakWeb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BleakBuilds.data",
-        frameworkUrl: buildUrl + "/BleakBuilds.framework.js",
-        codeUrl: buildUrl + "/BleakBuilds.wasm",
+        dataUrl: buildUrl + "/SomethingBleakWeb.data.gz",
+        frameworkUrl: buildUrl + "/SomethingBleakWeb.framework.js.gz",
+        codeUrl: buildUrl + "/SomethingBleakWeb.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NickParsons",
         productName: "SomethingBleak",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/BleakBuilds.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/SomethingBleakWeb.jpg.gz') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
