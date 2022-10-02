@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/BleakBuilds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BleakBuilds.data.br",
-        frameworkUrl: buildUrl + "/BleakBuilds.framework.js.br",
-        codeUrl: buildUrl + "/BleakBuilds.wasm.br",
+        dataUrl: buildUrl + "/BleakBuilds.data",
+        frameworkUrl: buildUrl + "/BleakBuilds.framework.js",
+        codeUrl: buildUrl + "/BleakBuilds.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "NickParsons",
         productName: "SomethingBleak",
@@ -97,7 +97,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/BleakBuilds.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/BleakBuilds.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
